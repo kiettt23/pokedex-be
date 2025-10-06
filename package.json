@@ -2,9 +2,11 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
-    "convert": "node src/utils/csvToJson.js"
+    "convert": "node src/utils/csvToJson.js",
+    "seed": "node src/scripts/seedPokemons.js"
   },
   "dependencies": {
+    "@faker-js/faker": "^10.0.0",
     "cors": "^2.8.5",
     "csv-parser": "^3.2.0",
     "dotenv": "^17.2.3",
