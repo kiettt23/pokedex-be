@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "convert": "node src/utils/csvToJson.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
